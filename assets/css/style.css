@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/*--------------------------------------------Colors*/
 
 .bg-color-name-title {
     background-color: #676767;
 }
 
 .bg-color-three-reasons {
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .bg-color-personal-info {
@@ -17,7 +17,7 @@
 }
 
 .bg-color-contact {
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .ui-menu-color-home {
@@ -36,7 +36,7 @@
     background-color: #525252;
 }
 
-/* -------------------------------------Special paddings */
+/* ----------------------------------------Special paddings/margins/text */
 
 h1,
 h2,
@@ -50,7 +50,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Exo"sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -71,13 +71,13 @@ h4 {
 
 .history-heading,
 .section-heading {
-    font-family: "Exo"sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
 }
 
-/* ------------------------------------- Heading */
+/*--------------------------------------------Heading*/
 
 header {
     margin: 0;
@@ -103,7 +103,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .title {
@@ -112,7 +112,7 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .list-inline-item:not(:last-child) {
@@ -123,13 +123,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -141,7 +141,7 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     height: 120px;
 }
 
@@ -163,14 +163,14 @@ header {
     letter-spacing: 2px;
 }
 
-/* ------------------------------------- Hover.css */
+/*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/* ------------------------------------- Footer */
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
@@ -222,18 +222,18 @@ footer {
     padding: 20px;
 }
 
-/* ------------------------------------- Three Reasons */
+/* ----------------------------------------Three Reasons */
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #e26e22;
+    color: #e67e22;
 }
 
 .three-reasons-heading {
     margin-bottom: 15px;
 }
 
-/* -------------------------------------Personal Info */
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -255,7 +255,7 @@ footer {
 .personal-info-item .key {
     width: 30%;
     margin-right: 21px;
-    margin-top: 2px;
+    padding-top: 2px;
     vertical-align: top;
 }
 
@@ -268,7 +268,7 @@ footer {
     width: 60%;
 }
 
-/* ------------------------------------- Skills */
+/* ----------------------------------------Skills */
 
 .progress {
     position: relative;
@@ -289,7 +289,7 @@ footer {
     margin: 40px 20px;
 }
 
-/* ------------------------------------- Work History */
+/* ----------------------------------------Work History */
 
 .history-heading {
     color: #fafafa;
@@ -314,7 +314,7 @@ footer {
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo"sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
@@ -329,18 +329,18 @@ footer {
     position: absolute;
     left: -6px;
     border-radius: 12px;
-    content: "";
-    background-color: #fafafa;
+    content: '';
+    background: #fafafa;
 }
 
 .history-items {
     margin-bottom: 30px;
 }
 
-/* ------------------------------------- Contact Form */
+/* ----------------------------------------Contact Form */
 
 .contact-heading {
-    font-family: "Exo" sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
@@ -359,7 +359,7 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
-/* ------------------------------------- Media Queries */
+/* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
     .center-form {
