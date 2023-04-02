@@ -118,7 +118,7 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../images/Karl.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,9 +180,9 @@ header {
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 350;
+    letter-spacing: 1.5px;
 }
 
 
